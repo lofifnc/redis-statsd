@@ -35,12 +35,9 @@ optional arguments:
   --period PERIOD       The period at which to collect and emit metrics
   --prefix PREFIX       The prefix to use for metric names
   --redis-host REDIS_HOST
-                        The address of the Redis host to connect to
-  --redis-port REDIS_PORT
-                        The port of the Redis host to connect to
+                        The address and port of the Redis host to connect to
   --statsd-host STATSD_HOST
-                        The port of the StatsD host to connect to
-  --statsd-port STATSD_PORT
-                        The port of the Redis port to connect to
+                        The address and port of the StatsD host to connect to
+  --global_tags         Global tags to add to all metrics
   --no-tags             Disable tags for use with DogStatsD
 ```
